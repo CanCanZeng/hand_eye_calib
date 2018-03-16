@@ -1,0 +1,6 @@
+# hand_eye_calib
+hand eye calibration
+这是个手眼标定程序
+handEye.m是从网上找到的并且自己做了一点修改,主要就是将输入的第二个参数由相机的pose改成了相机的外参extrinsic.
+my_hand_eye_calib.m 是我的标定程序demo
+verify_hand_eye.m 是模拟了一组虚拟数据来验证标定结果的准确性
